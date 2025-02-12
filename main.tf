@@ -103,7 +103,6 @@ resource "aws_route_table" "public" {
     var.common_tags,
     var.public_route_table_tags,
     {
-
       Name = "${local.resource_name}-public"
     }
   )
